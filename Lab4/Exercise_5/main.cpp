@@ -30,8 +30,8 @@ int sc_main (int argc, char * argv[])
 	hw_drivers.M(M);
 	hw_drivers.S(S);
     
-	TLC.car(car_driver);
-	TLC.light(light_driver);
+	TLC.car(hw_drivers);
+	TLC.light(hw_drivers);
 	TLC.timer(timer_driver);
 
 	TB.Main_road(M);
